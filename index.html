@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="icon" href="icon4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="game.css" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Kanit:ital@1&family=Monoton&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Itim&family=Kanit:ital@1&family=Monoton&family=Noto+Serif+KR:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="startGame()">
+    <h1>Tic Tak Toy</h1>
+    <h3 id="massage">result</h3>
+    <hr />
+    <table class="shift">
+      <tr>
+        <td class="square" id="s1" onclick="nextMove(this);"></td>
+        <td class="square" id="s2" onclick="nextMove(this);"></td>
+        <td class="square" id="s3" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td class="square" id="s4" onclick="nextMove(this);"></td>
+        <td class="square" id="s5" onclick="nextMove(this);"></td>
+        <td class="square" id="s6" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td class="square" id="s7" onclick="nextMove(this);"></td>
+        <td class="square" id="s8" onclick="nextMove(this);"></td>
+        <td class="square" id="s9" onclick="nextMove(this);"></td>
+      </tr>
+    </table>
+    <footer>Copyright 2018 The App Brewery</footer>
+
+    <script src="game.js"></script>
+  </body>
+</html>
